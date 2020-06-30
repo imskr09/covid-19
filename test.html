@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test covid-19</title>
+	<link rel="stylesheet" type="text/css" href="covid.css">
+	<link href="https://fonts.googleapis.com/css?family=Anton|Caveat|Homemade+Apple|Libre+Baskerville|Marck+Script|Nanum+Gothic+Coding|Open+Sans+Condensed:300|Play|Quattrocento+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<script type="text/javascript">
+	//functions:
+	function corona()
+	{
+		 var symptom=prompt("you COVID-19 testing may be needed please contact your DOCTOR:")
+	}
+
+	var temp=prompt("Enter your current BODY TEMPERATURE ?")
+	var symptoms=prompt("Are you experiencing any of this SYMPTOMS : dry cough, sneezing ,sore throat, weakness ? no")
+	
+	if (symptoms===" dry cough","sneezing","sore throat" || symptoms===" weakness" && temp>98.6)
+	{
+	 
+		alert("you COVID-19 testing may be needed please contact your DOCTOR:")
+		//document.forms["form"]["result"].value="you COVID-19 testing may be needed please contact your DOCTOR:";
+	}
+	else if(symptoms==="dry cough" || symptoms=="sneezing" || symptoms==="sore throat" || symptoms==="weakness" && temp===<98.6 || temp===>98.6) 
+	{
+		alert("you may have only DRY COUGH and FEVER don't be panic AND Take medicines, STAY AT YOUR HOME ONLY. THANK YOU")
+	}
+	else if(symptoms==="dry cough","sneezing" || symptoms==="dry cough", "sore throat" ||symptoms==="dry cough","weakness"  && temp===<98.6 || temp===>98.6)
+    {
+		alert("you COVID-19 testing may be needed please contact your DOCTOR:")
+	}
+	else if (symptoms==="no")
+	{
+		//document.forms["form"]["result"].value="you are fine , PLEASE STAY AT YOUR HOME.";
+		alert("you are fine , PLEASE STAY AT YOUR HOME.")
+	}
+
+</script>
+<body>
+	<div class="main">
+		
+		<div class="til">
+			<p>covid-19</p>
+		</div>
+
+		<nav class="navbar">
+			<a href="home.html">home</a>
+			<a href="sym.html">symptoms</a>
+			<a href="pre.html">precautions</a>
+			<a href="test.html">test covid-19</a>
+			<a href="help.html">helpline</a>
+			
+		</nav>
+		<div class="testbox">
+			<p>your covid-19 result will shown above :</p>
+			<hr>
+			<img src="stayhome.jpg">
+			 <form name="form" class="fr">
+                <output name="result"></output>
+             </form>
+		</div>
+
+	</div>
+ <footer class="footer">&copy Sajankumarrajak<br> Email: imskr09@gmail.com , Phone No: 8602133430</footer>
+
+</body>
+</html>
